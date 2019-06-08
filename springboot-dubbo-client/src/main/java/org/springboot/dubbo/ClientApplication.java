@@ -33,7 +33,7 @@ public class ClientApplication {
 		List<Company> list = null;
 		list = bean1.getAllCompanys();
 		for (Company company : list){
-			System.out.println(company.getClass()+"===="+company.getName()+"===="+company.getCreateDate());
+			System.out.println(company.getId()+"===="+company.getName()+"===="+company.getCreateDate());
 		}
 	}
 }
